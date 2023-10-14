@@ -1,0 +1,167 @@
+@import url( 'https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container,.container-mb {
+    width: 100%;
+    max-width: 1456px;
+    padding: 0 100px;
+    margin: 0 auto;
+}
+// ======================== FONT SIZE ===================
+.fs-14-13 {
+    font-size: 14px;
+    line-height: 18px;
+}
+.fs-16-14 {
+    font-size: 16px;
+    line-height: 19px;
+}
+.fs-18-14 {
+    font-size: 18px;
+    line-height: 22px;
+}
+.fs-20-18 {
+    font-size: 20px;
+    line-height: 28px;
+}
+.fs-65-35 {
+    font-size: 65px;
+    line-height: 77px;
+}
+.fs-24-16 {
+    font-size: 24px;
+    line-height: 29px;
+}
+.fs-35-24 {
+    font-size: 35px;
+    line-height: 42px;
+}
+.fs-34-24 {
+    font-size: 35px;
+    line-height: 42px;
+}
+// ======================== FONT SIZE END ===================
+.host-btn {
+    border-radius: 10px;
+    border: 1.5px solid #0076CE;
+    padding: 10px 20px;
+    font-weight: bold;
+    outline: none;
+    border-radius: 8px;
+    color: #0076CE;
+    background-color: white;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+
+}
+.primary-btn {
+    border: 1.5px solid #0076CE;
+    background-color: #0076CE;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    outline: none;
+    border-radius: 8px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+
+}
+// 
+.black-616{
+    color: #616161;
+}
+.black-999{
+    color: #999;
+}
+.blue-007{
+    color: #0076CE;
+}
+.orange-f66{
+    color: #F66;
+}
+.bg-faf{
+    background-color: #FAFBFC;
+}
+// ======================= common css start ===================
+.mb-show {
+    display: none;
+}
+.mb-flex {
+    display: none;
+}
+.text-colorfull {
+    background: linear-gradient(91deg, #0076CE 26.63%, #9400D3 65.81%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+// ======================= common css End ===================
+// 
+
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+@media (max-width:1024px) {
+    .container ,.container-mb{
+        padding: 0 5%;
+    }
+}
+@media (max-width:820px) {
+    .container-mb{
+        padding:0 0;
+    }
+    // ======================== FONT SIZE ===================
+    .fs-14-13 {
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .fs-18-14 {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .fs-20-18 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .fs-65-35 {
+        font-size: 35px;
+        line-height: 46px;
+    }
+    .fs-24-16 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .fs-16-14 {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .fs-35-24 {
+        font-size: 24px;
+        line-height: 29px;
+    }
+    // ======================== FONT SIZE END ===================
+    // ======================= common css start ===================
+    .desk-show {
+        display: none;
+    }
+    .mb-show {
+        display: block;
+    }
+    .mb-flex {
+        display: flex;
+    }
+    // ======================= common css End ===================
+    // 
+    // 
+
+}

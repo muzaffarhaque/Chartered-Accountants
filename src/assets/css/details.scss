@@ -1,0 +1,121 @@
+.first-details-section {
+    padding: 70px 0;
+    .left-details-part {
+        max-width: 515px;
+        width: 100%;
+    }
+}
+
+.devers-job-box,
+.what-people-syas {
+    border-radius: 20px;
+    background: var(--fs-search-card-bg, #FFF);
+    box-shadow: 2px 4px 15px 0 rgba(133, 133, 167, 0.25);
+    padding: 27px;
+    margin-top: 30px;
+}
+.what-people-syas {
+    margin-top: 35px;
+}
+.right-details-part {
+    max-width: 773px;
+    width: 100%;
+    .image-details-frame {
+        width: 100%;
+        height:auto;
+        max-height: 412px;
+        overflow: hidden;
+        .object-frame{
+            width: 100vw;
+         
+            overflow: hidden;
+          
+        }
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+
+}
+.details-main-wrapper {
+    align-items: start;
+    gap: 30px;
+}
+.recommented-frame {
+    margin: 50px 0;
+}
+.recomment-slider {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    overflow-x: scroll;
+    padding: 30px 0;
+    &::-webkit-scrollbar {
+        display: none;
+        appearance: none;
+    }
+}
+.recomment-card {
+    max-width: 405px;
+    min-width: 374px;
+    width: 100%;
+    border-radius: 20px;
+    background: var(--fs-search-card-bg, #FFF);
+    box-shadow: 2px 4px 15px 0 rgba(133, 133, 167, 0.25);
+    overflow: hidden;
+    .rec-image-frame {
+        width: 100%;
+        max-height: 244px;
+        overflow: hidden;
+        img {
+            width: 100%;
+
+        }
+    }
+    .rec-content-box {
+        padding: 20px 18px;
+    }
+}
+.w-51{
+    width: 50%;
+}
+.about-list{
+    width: 100%;
+    ul{
+        width: 100%;
+        li{
+            text-overflow: ellipsis;
+            white-space:nowrap;
+            overflow: hidden;
+            padding: 5px 0;
+        }
+    }
+}
+.object-frame2{
+    width: 100vw;
+    // overflow: hidden;
+ 
+
+}
+@media (max-width:820px) {
+    .first-details-section {
+        padding: 40px 0;
+    }
+    .details-main-wrapper {
+        flex-wrap: wrap;
+    }
+    .recomment-card {
+
+        min-width: 274px;
+    }
+    .mb-wrap{
+        flex-wrap: wrap;
+    }
+    .w-51{
+        width: 100%;
+    }
+    .mb-full{
+        width: 100%;
+    }
+}
