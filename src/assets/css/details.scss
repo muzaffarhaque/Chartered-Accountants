@@ -1,11 +1,19 @@
 .first-details-section {
     padding: 70px 0;
+
+   
     .left-details-part {
         max-width: 515px;
         width: 100%;
     }
 }
-
+.bac-arrow{
+    position: absolute;
+    left: 7%;
+    top: -70px;
+    width: 40px;
+    cursor: pointer;
+}
 .devers-job-box,
 .what-people-syas {
     border-radius: 20px;
@@ -100,7 +108,7 @@
 }
 @media (max-width:820px) {
     .first-details-section {
-        padding: 40px 0;
+        padding: 60px 0;
     }
     .details-main-wrapper {
         flex-wrap: wrap;
@@ -117,5 +125,12 @@
     }
     .mb-full{
         width: 100%;
+    }
+    .bac-arrow{
+        position: absolute;
+        left: 4%;
+        top: -45px;
+        width: 25px;
+        
     }
 }

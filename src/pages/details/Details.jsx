@@ -3,6 +3,7 @@ import { Image } from 'react-bootstrap';
 import calendar from '../../assets/images/calendar-2-line.svg'
 import start from '../../assets/images/star-fill.svg'
 import RImage from '../../assets/images/right-details-image.png'
+import BackArrow from '../../assets/images/back-arrow.png'
 import defaultImage from '../../assets/images/defaultImage.jpg'
 import { useLocation, useParams } from 'react-router-dom';
 import { toast } from 'react-toastify';
@@ -36,7 +37,8 @@ export default function Details() {
   </div> :
     <div className='home-section-frame'>
       <section className='first-details-section'>
-        <div className="container">
+        <div className="container position-relative">
+      <Image src={BackArrow} alt="icon star" onClick={()=>window.history.back()} className='bac-arrow'/>
           <div className="d-flex details-main-wrapper">
             <div className="left-details-part">
               <h4 className='fs-35-24 fw-bold'>{user?.name || "Michael Jackson"}</h4>
