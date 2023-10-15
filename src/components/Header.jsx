@@ -9,7 +9,7 @@ export default function Header() {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 100 && window.innerWidth > 820) {
+      if (window.scrollY > 10 && window.innerWidth > 820) {
         setHeaderBackground('white');
       } else {
         setHeaderBackground('transparent');
